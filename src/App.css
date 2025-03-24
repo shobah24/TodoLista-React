@@ -23,7 +23,7 @@ h1 {
   text-align: center;
 }
 
-/* Input-formulär */
+
 .input-form {
   display: flex;
   gap: 5px;
@@ -56,13 +56,13 @@ h1 {
   background-color: #074157;
 }
 
-/* Todo-lista */
+
 ul {
   padding: 0;
   color: #000000;
 }
 
-/* Enskilda todo-items */
+
 li {
   background: #07626a;
   padding: 10px;
@@ -71,22 +71,18 @@ li {
   align-items: center;
   justify-content: space-between;
   border-radius: 5px;
-  /* transition: 0.3s ease; */
 }
 
-/* Checkbox */
 .checkbox-container {
   margin-right: 10px;
   font-size: 20px;
 }
 
-/* Genomstruken text för färdiga todos */
 li.completed span {
   text-decoration: line-through;
   color: rgba(0, 0, 0, 0.697);
 }
 
-/* Ta bort-knappen */
 button {
   background: #242424;
   border: none;
